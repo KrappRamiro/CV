@@ -1,20 +1,26 @@
-# Bare-bones Typst CV
+# CV – Ramiro Krapp
 
-![Example](images/example.png)
+Built with [Typst](https://typst.app/).
 
-To generate `main.pdf` and watch for live changes, run
+## Usage
 
-`make watch`
-
+Watch for live changes:
 ```bash
-________ Main content
-├── main.typ
-├── settings.yaml      # Spacing and font sizes
-└── configuration.yaml # Content
+just watch
+```
 
-________ Auxilary
-├── README.md
-├── main.pdf
-└── images
-   └── example.png
+Compile once:
+```bash
+just build
+```
+
+Output: `krapp_ramiro_cv.pdf`
+
+## Structure
+
+```
+├── main.typ            # Template
+├── configuration.yaml  # Content (name, jobs, education, skills)
+├── settings.yaml       # Fonts and spacing
+└── fonts/
 ```
