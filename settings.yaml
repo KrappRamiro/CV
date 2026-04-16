@@ -3,12 +3,16 @@ font:
     heading_huge: 19pt
     heading_large: 16pt
     heading: 13pt
+    date: 11pt
     description: 9pt
     tags: 9pt
     education_description: 9pt
     contacts: 9pt
   general: "Helvetica Neue"
   minor_highlight: "Helvetica Neue"
+
+features:
+  show_job_tags: false
 
 paragraph:
   # Distance between lines
