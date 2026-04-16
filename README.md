@@ -1,5 +1,7 @@
 # CV – Ramiro Krapp
 
+**[View CV](https://krappramiro.github.io/CV/krapp_ramiro_cv.pdf)**
+
 Built with [Typst](https://typst.app/).
 
 ## Usage
